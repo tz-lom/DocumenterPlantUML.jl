@@ -1,11 +1,14 @@
 name = "DocumenterPlantUML"
 uuid = "ee5590a8-faa9-47ff-a03b-b69c10a769fd"
-authors = ["Nuzhdin Yury <nuzhdin.urii@gmail.com>"]
 version = "0.1.0"
+authors = ["Yury Nuzhdin <nuzhdin.urii@gmail.com>"]
 
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+MarkdownAST = "d0879d2d-cac2-40c8-9cee-1863dc0c7391"
 PlantUML = "69ad847d-c018-4c53-a279-bc41134dba09"
 
 [compat]
-Documenter = "1.8.1 - 1.*"
+Documenter = "1.8.1 - 1"
+MarkdownAST = "0.1"
+julia = "1.6 - 1.13"
