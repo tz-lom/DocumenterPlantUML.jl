@@ -1,0 +1,11 @@
+name = "DocumenterPlantUML"
+uuid = "ee5590a8-faa9-47ff-a03b-b69c10a769fd"
+authors = ["Nuzhdin Yury <nuzhdin.urii@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+PlantUML = "69ad847d-c018-4c53-a279-bc41134dba09"
+
+[compat]
+Documenter = "1.8.1 - 1.*"
