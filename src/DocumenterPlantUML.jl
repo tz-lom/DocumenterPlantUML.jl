@@ -11,7 +11,7 @@ abstract type ExtPlantUMLCodeBlock <: ExpanderPipeline end
 Selectors.order(::Type{ExtPlantUMLCodeBlock}) = 2.1
 
 Selectors.matcher(::Type{ExtPlantUMLCodeBlock}, node, page, doc) =
-    iscode(node, r"^@plantuml")
+    iscode(node, r"^plantuml")
 
 
 function Selectors.runner(::Type{ExtPlantUMLCodeBlock}, node, page, doc)

@@ -8,4 +8,11 @@ Renders PlantUML diagrams into inlined images in your documentation.
 
 ## Usage
 
-Add `using DocumenterPlantUML` to your `docs/make.jl`
+1. Add `using DocumenterPlantUML` to your `docs/make.jl`.
+2. Insert code block with `plantuml` type like
+   ```````
+   ```plantuml
+   A->B
+   ```
+
+   ```````

@@ -4,16 +4,16 @@ Simply add support of [PlantUML](https://plantuml.com/) diagrams to your documen
 
 ## Usage
 
-Create code block with type `@plantuml`
+Create code block with type `plantuml`
 
 **Example:**
 ````
-```@plantuml
+```plantuml
 A -> B
 ```
 ````
 
 **Result:**
-```@plantuml
+```plantuml
 A->B
 ```
